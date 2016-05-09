@@ -2,7 +2,6 @@
 
 http://www.mozza.co.jp/ParallaxEffect/
 
-Warning: Now in Construction
 
 ##### Installation
 
@@ -15,6 +14,14 @@ Swift 2.x, iOS 9:
 use_frameworks!
 pod 'ParallaxEffect', :git => 'https://github.com/yosuke1985/ParallaxEffect.git'
 ```
+
+
+import ParallaxEffect
+
+
+#### How to use
+ParallaxEffect.addParallaxToView(view:UIView)
+
 
 
 
