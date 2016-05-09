@@ -13,11 +13,11 @@ public class ParallaxEffect:NSObject{
 //        print("MyLib start..")
 //    }
     
-    
-    
+
+
     public class func addParallaxToView(vw: UIView) {
-        let amount = 25
-        
+        let amount :Int = 10
+
         let horizontal = UIInterpolatingMotionEffect(keyPath: "center.x", type: .TiltAlongHorizontalAxis)
         horizontal.minimumRelativeValue = -amount
         horizontal.maximumRelativeValue = amount
