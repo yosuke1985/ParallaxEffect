@@ -10,6 +10,16 @@
 		CE08BC7B1CE02DF3006EFC96 /* ParallaxEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = CE08BC7A1CE02DF3006EFC96 /* ParallaxEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE08BC821CE02DF4006EFC96 /* ParallaxEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE08BC771CE02DF3006EFC96 /* ParallaxEffect.framework */; };
 		CE08BC871CE02DF4006EFC96 /* ParallaxEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08BC861CE02DF4006EFC96 /* ParallaxEffectTests.swift */; };
+		CE08BC921CE02FE2006EFC96 /* MyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08BC911CE02FE2006EFC96 /* MyLib.swift */; };
+		CE08BC9A1CE0300C006EFC96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08BC991CE0300C006EFC96 /* AppDelegate.swift */; };
+		CE08BC9C1CE0300C006EFC96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08BC9B1CE0300C006EFC96 /* ViewController.swift */; };
+		CE08BC9F1CE0300C006EFC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE08BC9D1CE0300C006EFC96 /* Main.storyboard */; };
+		CE08BCA11CE0300C006EFC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE08BCA01CE0300C006EFC96 /* Assets.xcassets */; };
+		CE08BCA41CE0300C006EFC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE08BCA21CE0300C006EFC96 /* LaunchScreen.storyboard */; };
+		CE08BCAF1CE0300C006EFC96 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08BCAE1CE0300C006EFC96 /* DemoTests.swift */; };
+		CE08BCBA1CE0300C006EFC96 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08BCB91CE0300C006EFC96 /* DemoUITests.swift */; };
+		CE08BCC51CE03055006EFC96 /* ParallaxEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE08BC771CE02DF3006EFC96 /* ParallaxEffect.framework */; };
+		CE08BCC61CE03055006EFC96 /* ParallaxEffect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE08BC771CE02DF3006EFC96 /* ParallaxEffect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +30,42 @@
 			remoteGlobalIDString = CE08BC761CE02DF3006EFC96;
 			remoteInfo = ParallaxEffect;
 		};
+		CE08BCAB1CE0300C006EFC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE08BC6E1CE02DF3006EFC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE08BC961CE0300C006EFC96;
+			remoteInfo = Demo;
+		};
+		CE08BCB61CE0300C006EFC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE08BC6E1CE02DF3006EFC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE08BC961CE0300C006EFC96;
+			remoteInfo = Demo;
+		};
+		CE08BCC71CE03055006EFC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE08BC6E1CE02DF3006EFC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE08BC761CE02DF3006EFC96;
+			remoteInfo = ParallaxEffect;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE08BCC91CE03055006EFC96 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE08BCC61CE03055006EFC96 /* ParallaxEffect.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CE08BC771CE02DF3006EFC96 /* ParallaxEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParallaxEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +74,20 @@
 		CE08BC811CE02DF4006EFC96 /* ParallaxEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE08BC861CE02DF4006EFC96 /* ParallaxEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffectTests.swift; sourceTree = "<group>"; };
 		CE08BC881CE02DF4006EFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE08BC911CE02FE2006EFC96 /* MyLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLib.swift; sourceTree = "<group>"; };
+		CE08BC971CE0300C006EFC96 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE08BC991CE0300C006EFC96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE08BC9B1CE0300C006EFC96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE08BC9E1CE0300C006EFC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE08BCA01CE0300C006EFC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE08BCA31CE0300C006EFC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE08BCA51CE0300C006EFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE08BCAA1CE0300C006EFC96 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE08BCAE1CE0300C006EFC96 /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
+		CE08BCB01CE0300C006EFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE08BCB51CE0300C006EFC96 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE08BCB91CE0300C006EFC96 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
+		CE08BCBB1CE0300C006EFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +106,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE08BC941CE0300C006EFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE08BCC51CE03055006EFC96 /* ParallaxEffect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE08BCA71CE0300C006EFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE08BCB21CE0300C006EFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +136,9 @@
 			children = (
 				CE08BC791CE02DF3006EFC96 /* ParallaxEffect */,
 				CE08BC851CE02DF4006EFC96 /* ParallaxEffectTests */,
+				CE08BC981CE0300C006EFC96 /* Demo */,
+				CE08BCAD1CE0300C006EFC96 /* DemoTests */,
+				CE08BCB81CE0300C006EFC96 /* DemoUITests */,
 				CE08BC781CE02DF3006EFC96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +148,9 @@
 			children = (
 				CE08BC771CE02DF3006EFC96 /* ParallaxEffect.framework */,
 				CE08BC811CE02DF4006EFC96 /* ParallaxEffectTests.xctest */,
+				CE08BC971CE0300C006EFC96 /* Demo.app */,
+				CE08BCAA1CE0300C006EFC96 /* DemoTests.xctest */,
+				CE08BCB51CE0300C006EFC96 /* DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				CE08BC7A1CE02DF3006EFC96 /* ParallaxEffect.h */,
+				CE08BC911CE02FE2006EFC96 /* MyLib.swift */,
 				CE08BC7C1CE02DF3006EFC96 /* Info.plist */,
 			);
 			path = ParallaxEffect;
@@ -84,6 +172,37 @@
 				CE08BC881CE02DF4006EFC96 /* Info.plist */,
 			);
 			path = ParallaxEffectTests;
+			sourceTree = "<group>";
+		};
+		CE08BC981CE0300C006EFC96 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CE08BC991CE0300C006EFC96 /* AppDelegate.swift */,
+				CE08BC9B1CE0300C006EFC96 /* ViewController.swift */,
+				CE08BC9D1CE0300C006EFC96 /* Main.storyboard */,
+				CE08BCA01CE0300C006EFC96 /* Assets.xcassets */,
+				CE08BCA21CE0300C006EFC96 /* LaunchScreen.storyboard */,
+				CE08BCA51CE0300C006EFC96 /* Info.plist */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		CE08BCAD1CE0300C006EFC96 /* DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE08BCAE1CE0300C006EFC96 /* DemoTests.swift */,
+				CE08BCB01CE0300C006EFC96 /* Info.plist */,
+			);
+			path = DemoTests;
+			sourceTree = "<group>";
+		};
+		CE08BCB81CE0300C006EFC96 /* DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE08BCB91CE0300C006EFC96 /* DemoUITests.swift */,
+				CE08BCBB1CE0300C006EFC96 /* Info.plist */,
+			);
+			path = DemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +255,61 @@
 			productReference = CE08BC811CE02DF4006EFC96 /* ParallaxEffectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CE08BC961CE0300C006EFC96 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE08BCBC1CE0300C006EFC96 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				CE08BC931CE0300C006EFC96 /* Sources */,
+				CE08BC941CE0300C006EFC96 /* Frameworks */,
+				CE08BC951CE0300C006EFC96 /* Resources */,
+				CE08BCC91CE03055006EFC96 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE08BCC81CE03055006EFC96 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = CE08BC971CE0300C006EFC96 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE08BCA91CE0300C006EFC96 /* DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE08BCBF1CE0300C006EFC96 /* Build configuration list for PBXNativeTarget "DemoTests" */;
+			buildPhases = (
+				CE08BCA61CE0300C006EFC96 /* Sources */,
+				CE08BCA71CE0300C006EFC96 /* Frameworks */,
+				CE08BCA81CE0300C006EFC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE08BCAC1CE0300C006EFC96 /* PBXTargetDependency */,
+			);
+			name = DemoTests;
+			productName = DemoTests;
+			productReference = CE08BCAA1CE0300C006EFC96 /* DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE08BCB41CE0300C006EFC96 /* DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE08BCC21CE0300C006EFC96 /* Build configuration list for PBXNativeTarget "DemoUITests" */;
+			buildPhases = (
+				CE08BCB11CE0300C006EFC96 /* Sources */,
+				CE08BCB21CE0300C006EFC96 /* Frameworks */,
+				CE08BCB31CE0300C006EFC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE08BCB71CE0300C006EFC96 /* PBXTargetDependency */,
+			);
+			name = DemoUITests;
+			productName = DemoUITests;
+			productReference = CE08BCB51CE0300C006EFC96 /* DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +326,17 @@
 					CE08BC801CE02DF4006EFC96 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					CE08BC961CE0300C006EFC96 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CE08BCA91CE0300C006EFC96 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CE08BC961CE0300C006EFC96;
+					};
+					CE08BCB41CE0300C006EFC96 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CE08BC961CE0300C006EFC96;
+					};
 				};
 			};
 			buildConfigurationList = CE08BC711CE02DF3006EFC96 /* Build configuration list for PBXProject "ParallaxEffect" */;
@@ -160,6 +345,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CE08BC6D1CE02DF3006EFC96;
 			productRefGroup = CE08BC781CE02DF3006EFC96 /* Products */;
@@ -168,6 +354,9 @@
 			targets = (
 				CE08BC761CE02DF3006EFC96 /* ParallaxEffect */,
 				CE08BC801CE02DF4006EFC96 /* ParallaxEffectTests */,
+				CE08BC961CE0300C006EFC96 /* Demo */,
+				CE08BCA91CE0300C006EFC96 /* DemoTests */,
+				CE08BCB41CE0300C006EFC96 /* DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +376,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE08BC951CE0300C006EFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE08BCA41CE0300C006EFC96 /* LaunchScreen.storyboard in Resources */,
+				CE08BCA11CE0300C006EFC96 /* Assets.xcassets in Resources */,
+				CE08BC9F1CE0300C006EFC96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE08BCA81CE0300C006EFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE08BCB31CE0300C006EFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE08BC921CE02FE2006EFC96 /* MyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +419,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE08BC931CE0300C006EFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE08BC9C1CE0300C006EFC96 /* ViewController.swift in Sources */,
+				CE08BC9A1CE0300C006EFC96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE08BCA61CE0300C006EFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE08BCAF1CE0300C006EFC96 /* DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE08BCB11CE0300C006EFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE08BCBA1CE0300C006EFC96 /* DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +452,41 @@
 			target = CE08BC761CE02DF3006EFC96 /* ParallaxEffect */;
 			targetProxy = CE08BC831CE02DF4006EFC96 /* PBXContainerItemProxy */;
 		};
+		CE08BCAC1CE0300C006EFC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE08BC961CE0300C006EFC96 /* Demo */;
+			targetProxy = CE08BCAB1CE0300C006EFC96 /* PBXContainerItemProxy */;
+		};
+		CE08BCB71CE0300C006EFC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE08BC961CE0300C006EFC96 /* Demo */;
+			targetProxy = CE08BCB61CE0300C006EFC96 /* PBXContainerItemProxy */;
+		};
+		CE08BCC81CE03055006EFC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE08BC761CE02DF3006EFC96 /* ParallaxEffect */;
+			targetProxy = CE08BCC71CE03055006EFC96 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE08BC9D1CE0300C006EFC96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE08BC9E1CE0300C006EFC96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE08BCA21CE0300C006EFC96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE08BCA31CE0300C006EFC96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE08BC891CE02DF4006EFC96 /* Debug */ = {
@@ -310,6 +583,7 @@
 		CE08BC8C1CE02DF4006EFC96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +594,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.ParallaxEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		CE08BC8D1CE02DF4006EFC96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -359,6 +635,76 @@
 			};
 			name = Release;
 		};
+		CE08BCBD1CE0300C006EFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE08BCBE1CE0300C006EFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE08BCC01CE0300C006EFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.DemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+			};
+			name = Debug;
+		};
+		CE08BCC11CE0300C006EFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.DemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+			};
+			name = Release;
+		};
+		CE08BCC31CE0300C006EFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.DemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo;
+			};
+			name = Debug;
+		};
+		CE08BCC41CE0300C006EFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.DemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -384,6 +730,30 @@
 			buildConfigurations = (
 				CE08BC8F1CE02DF4006EFC96 /* Debug */,
 				CE08BC901CE02DF4006EFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE08BCBC1CE0300C006EFC96 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE08BCBD1CE0300C006EFC96 /* Debug */,
+				CE08BCBE1CE0300C006EFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE08BCBF1CE0300C006EFC96 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE08BCC01CE0300C006EFC96 /* Debug */,
+				CE08BCC11CE0300C006EFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE08BCC21CE0300C006EFC96 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE08BCC31CE0300C006EFC96 /* Debug */,
+				CE08BCC41CE0300C006EFC96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

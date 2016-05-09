@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ParallaxEffect.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,21 @@
 			<true/>
 		</dict>
 		<key>CE08BC801CE02DF4006EFC96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE08BC961CE0300C006EFC96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE08BCA91CE0300C006EFC96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE08BCB41CE0300C006EFC96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
