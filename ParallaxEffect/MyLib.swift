@@ -8,21 +8,21 @@
 
 import Foundation
 
-public class ParallaxEffect:NSObject{
+open class ParallaxEffect:NSObject{
 //    public class func start(){
 //        print("MyLib start..")
 //    }
     
 
 
-    public class func addParallaxToView(vw: UIView) {
+    open class func addParallaxToView(_ vw: UIView) {
         let amount :Int = 10
 
-        let horizontal = UIInterpolatingMotionEffect(keyPath: "center.x", type: .TiltAlongHorizontalAxis)
+        let horizontal = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
         horizontal.minimumRelativeValue = -amount
         horizontal.maximumRelativeValue = amount
         
-        let vertical = UIInterpolatingMotionEffect(keyPath: "center.y", type: .TiltAlongVerticalAxis)
+        let vertical = UIInterpolatingMotionEffect(keyPath: "center.y", type: .tiltAlongVerticalAxis)
         vertical.minimumRelativeValue = -amount
         vertical.maximumRelativeValue = amount
         
